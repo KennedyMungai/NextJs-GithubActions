@@ -1,0 +1,10 @@
+name: NextJS Github Actions
+
+on: push
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Get the Code
+              uses: actions/checkout@v4
