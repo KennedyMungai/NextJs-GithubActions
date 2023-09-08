@@ -1,6 +1,6 @@
 name: Testing A NextJS App
 
-on: push
+on: [push, workflow_dispatch] 
 
 jobs:
     setup:
